@@ -1152,7 +1152,7 @@ h1 {
 .speakers-member .member-img {
   background: #cccccc;
   position: relative;
-  padding: 15px 30px 0;
+  padding: 0;
   width: 100%;
   height: 240px;
   z-index: -1;
@@ -2298,4 +2298,71 @@ blockquote .quote-text {
 .form-control:focus {
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.14);
   outline: none;
+}
+
+
+/*----------Team-----------------*/
+#meet-team-2 {
+  padding: 100px 0;
+}
+.team-info >span{
+  color: #45aed6 !important;
+}
+.team-cont{
+  width: 100%;
+  margin: 0 auto;
+}
+.img2{
+  border-radius:50% !important;width:60%;margin: 0 auto;border: 4px solid #eeeeee;
+  transition: all 0.3s;
+}
+.img2:hover{
+  transition: all 0.3s;
+  -webkit-filter:opacity(50%);
+}
+
+.team-lower-team img{
+  width: 50%;
+}
+#meet-team {
+  padding: 100px 0;
+}
+#meet-team .team-member {
+  padding: 13px;
+  background: #eeeeee;
+  border: 2px solid #eeeeee;
+  transition: border-color 400ms;
+  -webkit-transition: border-color 400ms;
+}
+#meet-team .team-member .team-img {
+  margin: -15px -15px 0 -15px;
+}
+#meet-team .team-member .team-info {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 10px;
+}
+#meet-team .team-member:hover {
+  border-color: #45aed6;
+}
+#meet-team .team-member:hover .social-icons > li > a {
+  background: #45aed6;
+}
+#meet-team .social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#meet-team .social-icons > li {
+  display: inline-block;
+}
+#meet-team .social-icons > li > a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  background: #222534;
+  border-radius: 3px;
 }
