@@ -790,7 +790,7 @@ fieldset[disabled] .btn {
 }
 .main-board .day > li > a {
   color: #777777;
-  padding: 8px 249.75px;
+  padding: 8px 10px;
   margin-right: 0px;
   font-weight: 400;
   border: none;
@@ -2369,4 +2369,18 @@ blockquote .quote-text {
 
 .tab-pad{
   padding-top: 5%
+}
+
+.img-responsive{
+  margin: auto;
+}
+
+.day li{
+  min-width: 50%; /*Exmaple width*/
+}
+
+@media all and (max-width: 640px) {
+  .rev-scroll-btn {
+    display: none;
+  }
 }
