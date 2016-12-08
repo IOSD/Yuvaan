@@ -2366,3 +2366,7 @@ blockquote .quote-text {
   background: #222534;
   border-radius: 3px;
 }
+
+.tab-pad{
+  padding-top: 5%
+}
