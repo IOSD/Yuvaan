@@ -2386,7 +2386,7 @@ blockquote .quote-text {
 }
 
 .rules{
-    text-align: justify ;
+    text-align: left ;
     padding : 0px;
     margin: 0px;
     
