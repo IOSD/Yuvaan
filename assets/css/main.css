@@ -2386,7 +2386,7 @@ blockquote .quote-text {
 }
 
 .rules{
-    text-align: justify ;
+    text-align: left ;
     padding : 0px;
     margin: 0px;
     
@@ -2407,5 +2407,13 @@ blockquote .quote-text {
 .know-more a{
     color: white;
 
+}
+
+.overlay-text{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 150% ;
+    
 }
 
