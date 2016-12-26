@@ -805,7 +805,7 @@
       <div class="container">
         <div class="row wow fadeInDown" data-wow-delay="0.3s">
           <div class="col-md-8 col-sm-7 contact-form">
-            <form action="mailto:yuvaandtuofficial@gmail.com" method="post" enctype="text/plain">
+            <form action="https://formspree.io/yuvaandtuofficial@gmail.com" method="POST">
               <div class="title-header">
                 <h3 class="title-medium pull-left">Send us a message</h3>
                 <div class="icon pull-right"><i class="icon-envelope"></i></div>
@@ -823,7 +823,7 @@
                   <div class="label-line">
                     <span class="span"></span>
                     <label class="label transition">Email</label>
-                    <input type="email" class="input" id="email" required data-error="Please enter your email">
+                    <input type="email" class="input" id="email" required data-error="Please enter your email" name="_replyto">
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
@@ -834,7 +834,7 @@
                     <textarea id="message" class="input" required data-error="Write your message"></textarea>
                     <div class="help-block with-errors"></div>
                   </div>
-                  <button type="submit" id="form-submit" class="btn btn-common">Send <i class="icon-paper-plane" aria-hidden="true"></i></button>
+                  <button type="submit" id="form-submit" class="btn btn-common" value="Send">Send <i class="icon-paper-plane" aria-hidden="true"></i></button>
                   <div id="msgSubmit" class="h3 text-center hidden"></div>
                   <div class="clearfix"></div>
                 </div>
