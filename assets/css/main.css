@@ -1436,10 +1436,11 @@ h1 {
   padding: 57px 40px;
   margin: -254px 0px 200px;
   max-height: 627px;
+  padding-top: 0;
 }
 #contact .information {
   background: #777777;
-  padding: 65px 30px;
+  padding:0px 30px 80px 30px;
   margin-top: -254px;
   max-height: 627px;
 }
@@ -1527,7 +1528,6 @@ h1 {
 #contact .title-header {
   display: inline-block;
   width: 100%;
-  margin-bottom: 68px;
 }
 #contact .title-header .title-medium {
   font-size: 22px;
