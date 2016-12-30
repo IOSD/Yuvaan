@@ -2376,7 +2376,7 @@ blockquote .quote-text {
 }
 
 .day li{
-  min-width: 50%; /*Exmaple width*/
+  min-width: 33%; /*Exmaple width*/
 }
 
 @media all and (max-width: 640px) {
